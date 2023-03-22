@@ -50,7 +50,7 @@ body {
     height: 20%;
 }
 #corpo{
-    background-color: crimson;
+    background-color: rgb(19, 18, 18);
 }
 
 .login_center{
@@ -58,4 +58,67 @@ body {
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
+
+.login_center{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar_profile{
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+.form_login{
+    flex-basis: 70%;
+    flex-grow: 1;
+}
+
+#img_perfil{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+#login_senha label{
+    padding-left: 0;
+}
+
+#login_senha input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid  rgb(134, 213, 255);
+}
+
+#login_senha input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(134, 213, 255);
+}
+
+#botao_entrar{
+    width: 100%;
+    background-color: rgb(134, 213, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
 
